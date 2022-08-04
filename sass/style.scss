@@ -1,0 +1,38 @@
+* {
+  font-size: 18px;
+}
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  h1 {
+    font-size: 40px;
+    color: #ffffff;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    input {
+      flex-basis: 70%;
+      height: 40px;
+      margin-right: 10px;
+    }
+    button {
+      flex-basis: 30%;
+      cursor: pointer;
+    }
+  }
+  .todoList {
+    ul {
+      li {
+        font-size: 20px;
+        color: red;
+      }
+    }
+  }
+}
